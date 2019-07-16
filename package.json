@@ -2,6 +2,7 @@
   "name": "karutek-website",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://drfr0st.github.io/karutek-website",
   "dependencies": {
     "@material-ui/core": "^4.2.0",
     "@material-ui/icons": "^4.2.1",
@@ -19,11 +20,16 @@
     "react-scripts": "3.0.1",
     "typescript": "3.5.3"
   },
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
