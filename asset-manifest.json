@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/karutek-website/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/karutek-website/static/js/main.59bd13b3.chunk.js",
+    "main.js.map": "/karutek-website/static/js/main.59bd13b3.chunk.js.map",
+    "runtime~main.js": "/karutek-website/static/js/runtime~main.5b15379a.js",
+    "runtime~main.js.map": "/karutek-website/static/js/runtime~main.5b15379a.js.map",
+    "static/js/2.39304d2f.chunk.js": "/karutek-website/static/js/2.39304d2f.chunk.js",
+    "static/js/2.39304d2f.chunk.js.map": "/karutek-website/static/js/2.39304d2f.chunk.js.map",
+    "index.html": "/karutek-website/index.html",
+    "precache-manifest.1c8e33e4fc7695db0813a38b4df954cb.js": "/karutek-website/precache-manifest.1c8e33e4fc7695db0813a38b4df954cb.js",
+    "service-worker.js": "/karutek-website/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/karutek-website/static/css/main.5ecd60fb.chunk.css.map"
+  }
+}
