@@ -3,6 +3,7 @@ import { createMuiTheme } from '@material-ui/core/styles'
 import { ThemeProvider } from '@material-ui/styles'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import { Home } from 'components/pages'
+import LitteraProvider from 'react-littera'
 
 interface CustomPaletteTypes {
   primary: Object
@@ -38,18 +39,20 @@ const theme = createMuiTheme({
 
 const App: React.FC = () => {
   return (
-    <ThemeProvider theme={theme}>
-      <Router>
-        <Switch>
-          <Route
-            basename={process.env.REACT_APP_BASENAME || '/'}
-            path="/"
-            exact
-            component={Home}
-          />
-        </Switch>
-      </Router>
-    </ThemeProvider>
+    <LitteraProvider language="en_US">
+      <ThemeProvider theme={theme}>
+        <Router>
+          <Switch>
+            <Route
+              basename={process.env.REACT_APP_BASENAME || '/'}
+              path="/"
+              exact
+              component={Home}
+            />
+          </Switch>
+        </Router>
+      </ThemeProvider>
+    </LitteraProvider>
   )
 }
 
